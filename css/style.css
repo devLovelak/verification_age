@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(91, 165, 234);
+    color: white;
+}
+header{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+main{
+    background-color: white;
+    color: black;
+    padding: 30px 40px;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+}
+#res{
+    margin-top: 40px;
+    
+}
+#photo{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+footer{
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+}

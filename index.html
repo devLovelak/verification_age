@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vérificateur d'âge</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Vérificateur d'âge</h1>
+    </header>
+
+    <main>
+        <div >
+            <p>
+                Année de naissance:
+                <input type="number" name="annee" id="annee" min="0">
+            </p>
+            <p>
+                Sexe:
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculin</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="mas">Féminin</label>
+            </p>
+            <p>
+                <input type="button" value="Vérifier" onclick="Verifier()">
+            </p> 
+        </div>
+        <div id="res">
+            
+            <img id="photo">
+        </div>
+        
+    </main>
+
+     <footer>
+        <p>Créé par ©Carla Gonçalves</p>
+    </footer>
+    
+
+    <script src="functions.js"></script>
+    
+</body>
+</html>
