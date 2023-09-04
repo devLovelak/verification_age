@@ -7,6 +7,14 @@ header{
     text-align: center;
     padding-bottom: 20px;
 }
+#logo-header{
+    width: 150px;
+    border-radius: 60px;
+    height: 60px;
+    display: flex;
+    margin: 20px;
+    
+}
 main{
     background-color: white;
     color: black;
@@ -27,5 +35,15 @@ main{
 footer{
     color: white;
     text-align: center;
-    padding-top: 35px;
+    padding: 10px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    margin-top: 50vh;
+} 
+
+#logo-footer{
+    width: 200px;
 }
